@@ -257,7 +257,7 @@
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_lcdif_dat0_17
 		 &pinctrl_lcdif_dat18_23
-		 z&pinctrl_lcdif_clken
+		 &pinctrl_lcdif_clken
 		 &pinctrl_lcdif_hvsync>;
 	display = <&GL070BO_HI350R40>;
 	status = "disabled";
