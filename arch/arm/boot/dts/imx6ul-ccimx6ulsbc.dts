@@ -28,12 +28,12 @@
  * enable. Note that the iomux has to be configured accordingly in pinctrl_adc1
  * to configure the pad for ADC operation
  */
-&adc1 {
-	pinctrl-names = "default";
-	pinctrl-0 = <&pinctrl_adc1>;
-	adc-ch-list = <2>;
-	status = "okay";
-};
+//&adc1 {
+//	pinctrl-names = "default";
+//	pinctrl-0 = <&pinctrl_adc1>;
+//	adc-ch-list = <2>;
+//	status = "okay";
+//};
 
 /*
  * CSI camera conflicts with microSD/eMMC.
